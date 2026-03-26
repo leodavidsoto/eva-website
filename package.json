@@ -1,0 +1,12 @@
+{
+  "name": "eva-website",
+  "version": "1.0.0",
+  "description": "EVA — Educación, Vida y Autonomía",
+  "scripts": {
+    "start": "npx serve . -p ${PORT:-3000} -s",
+    "dev": "npx serve . -p 3000"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

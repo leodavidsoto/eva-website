@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profesionales â EVA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/eva.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg eva-navbar scrolled fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand eva-brand" href="index.html">
+      <span class="brand-icon">ð¸</span>
+      <span class="brand-text" style="color:var(--eva-primary)">EVA</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon" style="filter:none"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="index.html" style="color:var(--eva-text)!important">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="servicios.html" style="color:var(--eva-text)!important">MÃ³dulos</a></li>
+        <li class="nav-item"><a class="nav-link" href="profesionales.html" style="color:var(--eva-primary)!important;font-weight:700">Profesionales</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html" style="color:var(--eva-text)!important">Blog</a></li>
+        <li class="nav-item ms-2"><a class="btn btn-eva-outline btn-sm" href="login.html">Entrar</a></li>
+        <li class="nav-item ms-2"><a class="btn btn-eva-primary btn-sm" href="registro.html">Ãnete</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header-eva">
+  <div class="container">
+    <h1>Directorio de Profesionales</h1>
+    <p>GinecÃ³logas, matronas, psicÃ³logas y mÃ¡s â filtradas por regiÃ³n, previsiÃ³n y especialidad</p>
+    <div class="page-breadcrumb">
+      <a href="index.html">Inicio</a> <span>/</span> <span>Profesionales</span>
+    </div>
+  </div>
+</div>
+
+<section class="py-6">
+  <div class="container">
+    <!-- Filtros -->
+    <div class="pro-filter-bar" data-aos="fade-up">
+      <div class="row g-3 align-items-end">
+        <div class="col-md-3">
+          <label style="font-size:0.8rem;font-weight:700;margin-bottom:0.4rem;display:block">Especialidad</label>
+          <select class="filter-select w-100">
+            <option>Todas</option>
+            <option>GinecologÃ­a</option>
+            <option>Obstetricia</option>
+            <option>Matrona</option>
+            <option>PsicologÃ­a</option>
+            <option>NutriciÃ³n</option>
+            <option>KinesiologÃ­a PÃ©lvica</option>
+            <option>SexologÃ­a</option>
+            <option>EndocrinologÃ­a</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label style="font-size:0.8rem;font-weight:700;margin-bottom:0.4rem;display:block">RegiÃ³n</label>
+          <select class="filter-select w-100">
+            <option>Todas las regiones</option>
+            <option>RegiÃ³n Metropolitana</option>
+            <option>ValparaÃ­so</option>
+            <option>BiobÃ­o</option>
+            <option>La AraucanÃ­a</option>
+            <option>Los Lagos</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label style="font-size:0.8rem;font-weight:700;margin-bottom:0.4rem;display:block">PrevisiÃ³n</label>
+          <select class="filter-select w-100">
+            <option>Todas</option>
+            <option>FONASA A</option>
+            <option>FONASA B</option>
+            <option>FONASA C</option>
+            <option>FONASA D</option>
+            <option>ISAPRE</option>
+            <option>Particular</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-eva-primary w-100">
+            <i class="fa fa-search me-2"></i>Buscar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 mt-2">
+      <!-- Profesionales -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="profesional-card">
+          <div class="profesional-img">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" alt="Dra. Ana GarcÃ­a">
+          </div>
+          <div class="profesional-info">
+            <div class="profesional-badge">GinecologÃ­a</div>
+            <h5>Dra. Ana GarcÃ­a Herrera</h5>
+            <p><i class="fa fa-location-dot text-eva-primary"></i> Providencia, Santiago</p>
+            <p><i class="fa fa-credit-card text-eva-primary"></i> FONASA A-D Â· ISAPRE Â· Particular</p>
+            <p><i class="fa fa-globe text-eva-primary"></i> Atiende online</p>
+            <div class="profesional-rating">âââââ <span>(47 reseÃ±as)</span></div>
+            <p style="font-size:0.8rem;color:var(--eva-text-muted);margin-top:0.5rem">Especialista en endometriosis y ciclos irregulares. 15 aÃ±os de experiencia.</p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="agendar.html" class="btn btn-sm btn-eva-primary flex-fill">Agendar</a>
+              <a href="#" class="btn btn-sm btn-eva-outline">Ver perfil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="profesional-card">
+          <div class="profesional-img">
+            <img src="https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=400&q=80" alt="Matrona SofÃ­a PÃ©rez">
+          </div>
+          <div class="profesional-info">
+            <div class="profesional-badge" style="background:#E9D8FD;color:#553C9A">Matrona</div>
+            <h5>Matrona SofÃ­a PÃ©rez Lagos</h5>
+            <p><i class="fa fa-location-dot text-eva-primary"></i> ÃuÃ±oa, Santiago</p>
+            <p><i class="fa fa-credit-card text-eva-primary"></i> FONASA B-D Â· Particular</p>
+            <p><i class="fa fa-globe text-eva-primary"></i> Atiende online</p>
+            <div class="profesional-rating">âââââ <span>(32 reseÃ±as)</span></div>
+            <p style="font-size:0.8rem;color:var(--eva-text-muted);margin-top:0.5rem">Especialista en salud sexual, anticoncepciÃ³n y menopausia.</p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="agendar.html" class="btn btn-sm btn-eva-primary flex-fill">Agendar</a>
+              <a href="#" class="btn btn-sm btn-eva-outline">Ver perfil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="profesional-card">
+          <div class="profesional-img">
+            <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&q=80" alt="Ps. LucÃ­a Vargas">
+          </div>
+          <div class="profesional-info">
+            <div class="profesional-badge" style="background:#C6F6D5;color:#276749">PsicologÃ­a</div>
+            <h5>Ps. LucÃ­a Vargas Montoya</h5>
+            <p><i class="fa fa-location-dot text-eva-primary"></i> Online Â· Chile</p>
+            <p><i class="fa fa-credit-card text-eva-primary"></i> FONASA D Â· ISAPRE</p>
+            <p><i class="fa fa-globe text-eva-primary"></i> Solo online</p>
+            <div class="profesional-rating">âââââ <span>(28 reseÃ±as)</span></div>
+            <p style="font-size:0.8rem;color:var(--eva-text-muted);margin-top:0.5rem">Especialista en salud mental femenina, depresiÃ³n postparto y ansiedad hormonal.</p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="agendar.html" class="btn btn-sm btn-eva-primary flex-fill">Agendar</a>
+              <a href="#" class="btn btn-sm btn-eva-outline">Ver perfil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="profesional-card">
+          <div class="profesional-img">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80" alt="Dr. Carolina MuÃ±oz">
+          </div>
+          <div class="profesional-info">
+            <div class="profesional-badge" style="background:#BEE3F8;color:#2B6CB0">Obstetricia</div>
+            <h5>Dra. Carolina MuÃ±oz RÃ­os</h5>
+            <p><i class="fa fa-location-dot text-eva-primary"></i> Las Condes, Santiago</p>
+            <p><i class="fa fa-credit-card text-eva-primary"></i> ISAPRE Â· Particular</p>
+            <p><i class="fa fa-building text-eva-primary"></i> Presencial</p>
+            <div class="profesional-rating">âââââ <span>(61 reseÃ±as)</span></div>
+            <p style="font-size:0.8rem;color:var(--eva-text-muted);margin-top:0.5rem">Obstetra con enfoque en partos respetados y seguimiento integral del embarazo.</p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="agendar.html" class="btn btn-sm btn-eva-primary flex-fill">Agendar</a>
+              <a href="#" class="btn btn-sm btn-eva-outline">Ver perfil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="profesional-card">
+          <div class="profesional-img">
+            <img src="https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?w=400&q=80" alt="Nutricionista">
+          </div>
+          <div class="profesional-info">
+            <div class="profesional-badge" style="background:#FEEBC8;color:#744210">NutriciÃ³n</div>
+            <h5>Nut. Fernanda Ortiz Salas</h5>
+            <p><i class="fa fa-location-dot text-eva-primary"></i> ViÃ±a del Mar, ValparaÃ­so</p>
+            <p><i class="fa fa-credit-card text-eva-primary"></i> FONASA D Â· Particular</p>
+            <p><i class="fa fa-globe text-eva-primary"></i> Presencial y online</p>
+            <div class="profesional-rating">âââââ <span>(19 reseÃ±as)</span></div>
+            <p style="font-size:0.8rem;color:var(--eva-text-muted);margin-top:0.5rem">Especialista en nutriciÃ³n hormonal, SOP y menopausia.</p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="agendar.html" class="btn btn-sm btn-eva-primary flex-fill">Agendar</a>
+              <a href="#" class="btn btn-sm btn-eva-outline">Ver perfil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="profesional-card">
+          <div class="profesional-img">
+            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&q=80" alt="KinesiÃ³loga">
+          </div>
+          <div class="profesional-info">
+            <div class="profesional-badge" style="background:#FED7D7;color:#742A2A">KinesiologÃ­a PÃ©lvica</div>
+            <h5>Kine. BÃ¡rbara Soto Pinto</h5>
+            <p><i class="fa fa-location-dot text-eva-primary"></i> ConcepciÃ³n, BiobÃ­o</p>
+            <p><i class="fa fa-credit-card text-eva-primary"></i> FONASA B-D Â· ISAPRE</p>
+            <p><i class="fa fa-building text-eva-primary"></i> Presencial</p>
+            <div class="profesional-rating">âââââ <span>(23 reseÃ±as)</span></div>
+            <p style="font-size:0.8rem;color:var(--eva-text-muted);margin-top:0.5rem">Especialista en rehabilitaciÃ³n pÃ©lvica postparto, incontinencia y dolor pÃ©lvico.</p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="agendar.html" class="btn btn-sm btn-eva-primary flex-fill">Agendar</a>
+              <a href="#" class="btn btn-sm btn-eva-outline">Ver perfil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="eva-footer">
+  <div class="container">
+    <div class="footer-bottom" style="padding:2rem 0">
+      <p>Â© 2026 EVA â EducaciÃ³n, Vida y AutonomÃ­a. Hecho con ð para mujeres de Chile.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>AOS.init({ duration: 800, once: true });</script>
+</body>
+</html>
